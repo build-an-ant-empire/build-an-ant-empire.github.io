@@ -1,0 +1,78 @@
+{
+  "readyForLaunch": true,
+  "siteName": "Build an Ant Empire Wiki",
+  "shortName": "Build an Ant Empire",
+  "description": "Independent Build an Ant Empire wiki and guide for Roblox codes, items, mutations, upgrades, pets, Auto Jelly Feed, and beginner progression.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "obsidian-red",
+    "overrides": {
+      "background": "0 0% 96%",
+      "foreground": "0 0% 7%",
+      "card": "0 0% 100%",
+      "card-foreground": "0 0% 7%",
+      "primary": "0 84% 60%",
+      "primary-foreground": "0 0% 0%",
+      "secondary": "0 0% 89%",
+      "muted": "0 0% 91%",
+      "muted-foreground": "0 0% 7%",
+      "border": "0 0% 80%",
+      "radius": ".45rem",
+      "card-shadow": "0 14px 36px rgba(15, 18, 24, .08)",
+      "hero-gradient": "linear-gradient(90deg, hsl(0 84% 60% / .16), transparent 46%)",
+      "background-pattern": "none",
+      "font-sans": "\"Source Sans 3\", ui-sans-serif, system-ui, sans-serif",
+      "font-heading": "\"Source Sans 3\", ui-sans-serif, system-ui, sans-serif",
+      "heading-weight": "700",
+      "heading-letter-spacing": "-0.02em"
+    },
+    "skin": "editorial",
+    "headerStyle": "solid",
+    "componentStyle": "rounded",
+    "appearanceVersion": 2,
+    "appearanceMode": "fixed-template",
+    "templateVersion": 1,
+    "accentColorId": "red",
+    "colorMode": "custom",
+    "background": "#F6F6F6",
+    "accent": "#EF4444",
+    "fontId": "source-sans"
+  },
+  "hosting": {
+    "siteUrl": "https://build-an-ant-empire.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "contact": {
+    "email": null,
+    "url": null
+  },
+  "repositoryUrl": null,
+  "allowedExternalDomains": [
+    "www.roblox.com",
+    "progameguides.com",
+    "allthings.how",
+    "www.ggaid.com"
+  ],
+  "assets": {
+    "logo": "/images/build-an-ant-empire-logo.webp",
+    "cover": "/images/build-an-ant-empire-cover.webp",
+    "openGraph": "/images/build-an-ant-empire-og.svg",
+    "favicon": "/images/build-an-ant-empire-logo.webp"
+  },
+  "game": {
+    "name": "Build an Ant Empire",
+    "platform": "Roblox",
+    "developer": "Insect Kingdom studio",
+    "genre": "Simulation / Tycoon",
+    "officialUrl": "https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire"
+  },
+  "seo": {
+    "titleTemplate": "%s | Build an Ant Empire Guide",
+    "defaultKeywords": [
+      "Build an Ant Empire"
+    ]
+  }
+}

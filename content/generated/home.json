@@ -1,0 +1,258 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "Build an Ant Empire Wiki & Guide | Codes, Items & Pets",
+  "description": "Build an Ant Empire wiki and guide with codes, items, mutations, upgrades, pets, Auto Jelly Feed, and beginner tips for the Roblox game.",
+  "keywords": [
+    "build an ant empire",
+    "build an ant empire wiki",
+    "build an ant empire guide",
+    "build an ant empire roblox"
+  ],
+  "primaryKeyword": "build an ant empire",
+  "secondaryKeywords": [
+    "build an ant empire wiki",
+    "build an ant empire guide",
+    "build an ant empire roblox"
+  ],
+  "searchIntent": "Find the Roblox game and choose a focused progression guide",
+  "priority": "P0",
+  "navVisible": true,
+  "hero": {
+    "eyebrow": "Independent fan-made guide",
+    "heading": "Build an Ant Empire Wiki & Guide",
+    "lead": "Your guide hub for Insect Kingdom studio’s Roblox colony simulation / tycoon: start small, grow your workers and turn Food into Cash.",
+    "supportingText": "Roll ants → collect Food → sell for Cash → upgrade the colony → unlock stronger ants.",
+    "primaryLink": {
+      "label": "Start the Beginner Guide",
+      "slug": "beginner-guide"
+    },
+    "secondaryLink": {
+      "label": "Play on Roblox",
+      "url": "https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire"
+    }
+  },
+  "sections": [
+    {
+      "id": "what-is-build-an-ant-empire",
+      "heading": "What Is Build an Ant Empire?",
+      "paragraphs": [
+        "Build an Ant Empire is a Roblox colony-building game by Insect Kingdom studio. You begin with a small colony, roll new ants, collect Food and earn money to upgrade your colony. Unlocking stronger ants and expanding your operation are part of that repeating progression loop, rather than separate goals with no connection to your Cash income.",
+        "This wiki and guide hub helps you choose the next task: redeem a code, compare shop items, understand early upgrades or explore the newer pet and feeding systems. If you are trying to find the correct experience, use the Play on Roblox link and check the developer name. The game’s Place ID is 78490532994307. Similar ant-game names can lead to unrelated mechanics and code lists."
+      ],
+      "table": {
+        "caption": "Game information",
+        "columns": [
+          "Detail",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Game",
+            "Build An Ant Empire"
+          ],
+          [
+            "Developer",
+            "Insect Kingdom studio"
+          ],
+          [
+            "Platform",
+            "Roblox"
+          ],
+          [
+            "Place ID",
+            "78490532994307"
+          ],
+          [
+            "Genre",
+            "Simulation / Tycoon"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "how-build-an-ant-empire-works",
+      "heading": "How Build an Ant Empire Works",
+      "paragraphs": [
+        "The easiest way to understand the colony is to follow a complete cycle from recruitment to reinvestment. Doing just one step can leave you wondering why progress feels slow. Use these five parts as a practical map of what you are trying to accomplish."
+      ],
+      "subsections": [
+        {
+          "heading": "1. Roll and Buy Ants",
+          "paragraphs": [
+            "Start at the Ant Queen to roll or buy ants and eggs. Recruitment supplies the workers for your colony. Before spending heavily, check whether you have room to place the ants you want to use, since recruitment and available slots need to work together."
+          ]
+        },
+        {
+          "heading": "2. Place Ants in Colony Slots",
+          "paragraphs": [
+            "Put ants into the colony’s available slots. The beginner reference describes one starting slot, with further slots costing more as you expand. Use the current menu for the next price instead of copying a fixed cost from an older guide."
+          ]
+        },
+        {
+          "heading": "3. Collect Food",
+          "paragraphs": [
+            "Ants produce Food boxes. Pay attention to the collection step so the colony’s output becomes part of your progression route. Knowing where your Food comes from helps you decide whether your present need is more space, faster production or another improvement."
+          ]
+        },
+        {
+          "heading": "4. Sell Food for Cash",
+          "paragraphs": [
+            "Use the Sell station to convert Food boxes into Cash. Food Value upgrades raise how much each box sells for. Keep the currency route clear: ordinary colony Cash and the pet coins used by the Dungeon pet system serve different tasks."
+          ]
+        },
+        {
+          "heading": "5. Upgrade and Scale",
+          "paragraphs": [
+            "Reinvest Cash in useful ants and upgrades, then repeat the cycle. The right next purchase depends on your colony’s current constraint. More room, better recruitment and higher sale value solve different problems, so review what is limiting you before confirming a purchase."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latest-build-an-ant-empire-codes",
+      "heading": "Latest Build an Ant Empire Codes",
+      "paragraphs": [
+        "The October 1 code guide lists 9hcb2s as active for 15 min of Cash. Last checked: October 1, 2026. Redeem inside the game through the upper-right Settings icon, then Codes and Redeem. Copy the string exactly as shown and read the game’s response after submitting.",
+        "This homepage keeps a short snapshot so you can find the current entry quickly. Use the dedicated code page for the complete active and inactive lists and help with typing errors, already-redeemed messages or an entry that has changed after an update. A timed reward is easier to plan around once you understand collecting and selling."
+      ],
+      "table": {
+        "caption": "Current code snapshot",
+        "columns": [
+          "Code",
+          "Reward"
+        ],
+        "rows": [
+          [
+            "9hcb2s",
+            "15 min of Cash"
+          ]
+        ]
+      },
+      "links": [
+        {
+          "slug": "codes",
+          "label": "See all active and expired codes",
+          "description": "Find the full redemption route and troubleshooting checklist."
+        }
+      ]
+    },
+    {
+      "id": "items-and-mutations",
+      "heading": "Items and Mutations",
+      "paragraphs": [
+        "The item reference lists 11 consumables: four Speed Jellies, six mutation-applying potions and one Mutation Removal Potion. Speed Jellies provide temporary movement speed. Mutation potions apply named EFF effects to a chosen ant. Removal Potion has a different job: it removes an ant’s mutation rather than giving a new positive multiplier.",
+        "Normal Speed Jelly costs $10k for 1.3x movement speed over 5 minutes. Leaf Mutation Potion costs $1M for 1.35x EFF, while Mutation Removal Potion costs $100k. These examples show why reading the effect is as important as reading the price. A temporary speed effect, an EFF mutation and removal are distinct purchases. Items are consumed on use, so check the selected ant before committing."
+      ],
+      "links": [
+        {
+          "slug": "items",
+          "label": "View all item prices and effects",
+          "description": "Compare the complete 11-item table and four Speed Jelly durations."
+        },
+        {
+          "slug": "mutations",
+          "label": "Compare mutations and EFF multipliers",
+          "description": "Read all six application costs and the separate removal option."
+        }
+      ]
+    },
+    {
+      "id": "best-early-upgrade-priorities",
+      "heading": "Best Early Upgrade Priorities",
+      "paragraphs": [
+        "The September 30 beginner guide recommends Egg Luck and Egg Rolls early. Egg Luck improves the odds of better ants, while Egg Rolls gives more rolls at the Ant Queen. Treat this as a practical starting recommendation, not an immutable purchase law for every colony or a guaranteed result from a specific number of attempts.",
+        "Then compare Food Value and Colony Expansion according to the bottleneck you see. Food Value raises box sale value. Expansion adds room and slots. Ant Speed makes ants produce Food faster when production speed is what limits you. Read the next price in the live game, and keep a reserve for the next useful purchase instead of exhausting your balance on an unrelated item."
+      ],
+      "links": [
+        {
+          "slug": "upgrades",
+          "label": "Choose a useful early upgrade",
+          "description": "Compare the five upgrade categories and a condition-based spending order."
+        }
+      ]
+    },
+    {
+      "id": "pets-dungeon-and-auto-jelly-feed",
+      "heading": "Pets, Dungeon and Auto Jelly Feed",
+      "paragraphs": [
+        "The Pet System update connects Dungeon content to pet coins and pet egg hatching. The route is Dungeon → collect pet coins → hatch a pet egg. Read the requirement shown by the current egg interface before deciding whether you have enough currency. Use the live egg or collection display for the pets and details available to you.",
+        "Auto Jelly Feed is a separate addition that automatically feeds ants with jelly. It can reduce manual feeding actions, but the automatic feature should not be assumed to use the same input as every Speed Jelly in the item shop. Inspect the current feeding controls, enable the option shown and observe an eligible action to understand how it fits your session."
+      ],
+      "links": [
+        {
+          "slug": "pets",
+          "label": "Follow the Pets & Dungeon route",
+          "description": "Understand the connection between pet coins and hatching."
+        },
+        {
+          "slug": "auto-jelly-feed",
+          "label": "Read the Auto Jelly Feed guide",
+          "description": "Check the live feeding controls and common reasons an action has not happened."
+        }
+      ]
+    },
+    {
+      "id": "build-an-ant-empire-beginner-tips",
+      "heading": "Build an Ant Empire Beginner Tips",
+      "paragraphs": [
+        "Use these habits to make the first session easier to follow. They focus on the known progression loop, rather than promising a particular Cash total after a fixed number of minutes. A clear next task is more useful than a shopping list that assumes you already have a large colony."
+      ],
+      "subsections": [
+        {
+          "heading": "A practical first-session checklist",
+          "paragraphs": [],
+          "bullets": [
+            "Learn WASD, Space and E on keyboard so movement and interaction do not interrupt the loop.",
+            "Complete rolling, placement, Food collection and selling once before chasing advanced purchases.",
+            "Check your colony slots before spending heavily on recruitment at the Ant Queen.",
+            "Compare the next useful upgrade with your balance and keep a progression reserve.",
+            "Copy codes exactly and check their active status instead of relying on an older saved list.",
+            "Use expensive mutation potions on ants you intend to keep, after reading the target and effect.",
+            "Read current pet and feeding interfaces when exploring new systems; let their visible requirements guide your actions."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "slug": "beginner-guide",
+          "label": "Start the Beginner Guide",
+          "description": "Follow a complete first-run checklist with early Cash decisions and mistakes to avoid."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Build an Ant Empire?",
+      "answer": "It is a Roblox colony simulation / tycoon by Insect Kingdom studio. Roll ants, collect Food, sell for Cash and reinvest in your colony."
+    },
+    {
+      "question": "Where can I play Build an Ant Empire?",
+      "answer": "Use the Play on Roblox link to the official experience with Place ID 78490532994307. Check that the developer is Insect Kingdom studio."
+    },
+    {
+      "question": "Are there Build an Ant Empire codes?",
+      "answer": "Yes. The October 1 list has 9hcb2s for 15 min of Cash. The code page includes the active entry, inactive codes and redemption steps."
+    },
+    {
+      "question": "How do I get pets in Build an Ant Empire?",
+      "answer": "Collect pet coins in the Dungeon and use them to hatch a pet egg. Check the current egg interface for its requirement."
+    },
+    {
+      "question": "What does Auto Jelly Feed do?",
+      "answer": "It automatically feeds ants with jelly. Inspect the current feeding controls for the option and any displayed input or target requirement."
+    },
+    {
+      "question": "What should I upgrade first?",
+      "answer": "The current beginner reference recommends Egg Luck and Egg Rolls early, followed by Food Value or Colony Expansion according to your needs."
+    },
+    {
+      "question": "Is this the same game as Ants Empire?",
+      "answer": "No. Use the game name, developer and official Roblox link here to keep Build An Ant Empire guides separate from similarly named experiences."
+    }
+  ],
+  "screenshots": [],
+  "lastReviewed": "2026-10-01"
+}

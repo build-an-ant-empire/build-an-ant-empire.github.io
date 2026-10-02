@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Next.js and exported builds
+.next/
+out/
+/next-env.d.ts
+*.tsbuildinfo
+
+# Local environment values; keep the shared empty configuration example
+.env*
+!.env.example
+
+# QA output, screenshots and packaged releases
+.playwright-cli/
+output/
+release/
+/playwright-report/
+/test-results/
+/coverage/
+/seo-report.json
+
+# Local caches and logs
+.cache/
+.turbo/
+.vercel/
+*.log
+
+# Personal IDE and operating system files
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
