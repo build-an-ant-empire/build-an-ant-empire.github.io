@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Only the advertisement perimeter is styled; provider creative styles stay intact. */
+.adsterra-slot.adsterra-slot {
+  min-width: 0;
+  max-width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+.adsterra-slot .adsterra-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #686868;
+  font: 10px/1.4 Arial, sans-serif;
+  letter-spacing: .08em;
+}
+.adsterra-slot .adsterra-host { min-width: 0; max-width: 100%; }
+.adsterra-slot iframe { display: block; max-width: 100%; margin: 0 auto; border: 0; }
+.adsterra-banner .adsterra-host { min-height: 90px; }
+.adsterra-native.adsterra-native {
+  padding: 12px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+.adsterra-native iframe { width: 100%; }
+.adsterra-native:not([data-ad-state="rendered"]),
+.adsterra-slot[data-ad-state="empty"] {
+  height: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+.adsterra-native:not([data-ad-state="rendered"]) .adsterra-label,
+.adsterra-slot[data-ad-state="empty"] .adsterra-label { display: none; }
+@media (width < 768px) {
+  .adsterra-banner .adsterra-host { min-height: 50px; }
+}
+
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {

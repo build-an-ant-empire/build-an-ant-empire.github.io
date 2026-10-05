@@ -72,7 +72,8 @@ function htmlFiles(directory) {
   });
 }
 if (/^G-[A-Z0-9]+$/.test(measurementId)) {
-  const exportedHtml = htmlFiles('out');
+  // Standalone provider documents run inside ad iframes, not as site pages.
+  const exportedHtml = htmlFiles('out').filter(file => !file.startsWith('out/ads/'));
   for (const file of exportedHtml) {
     const html = readFileSync(file, 'utf8');
     const head = html.match(/<head\b[^>]*>([\s\S]*?)<\/head>/)?.[1] ?? '';
