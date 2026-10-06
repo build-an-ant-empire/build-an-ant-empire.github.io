@@ -11,7 +11,7 @@ check(site.readyForLaunch || process.argv.includes('--prelaunch'), 'Launch statu
 check(site.hosting.siteUrl === 'https://build-an-ant-empire.github.io' && site.hosting.basePath === '' && site.hosting.customDomain === null, 'Incorrect production hosting');
 check(site.repositoryUrl === null, 'Repository URL must remain private');
 check(site.game.officialUrl === 'https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire', 'Incorrect official game URL');
-check(all.length === 8 && new Set(all.map(p => p.slug)).size === 8, 'Exactly eight unique core routes required');
+check(all.length === 11 && new Set(all.map(p => p.slug)).size === 11, 'Exactly eleven unique core routes required');
 const titles = new Set(), descriptions = new Set();
 function validateTable(table) {
   if (!table) return;

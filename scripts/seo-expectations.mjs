@@ -34,6 +34,21 @@ export const expected = {
     "description": "See every Build an Ant Empire mutation, potion price, EFF multiplier, removal option, and practical tips for choosing which ants to mutate.",
     "h1": "Build an Ant Empire Mutations"
   },
+  "star-event": {
+    "title": "Build an Ant Empire Star Event | Star Items & Pets",
+    "description": "Build an Ant Empire Star Event guide covering Star items, the Wishing Pool, limited dungeon, Event Tokens, new pets, and limited Star rewards.",
+    "h1": "Build an Ant Empire Star Event"
+  },
+  "ants": {
+    "title": "Build an Ant Empire Ants | Rarities, Rolls & Progression",
+    "description": "Build an Ant Empire ants guide covering rarities, Ant Queen rolls, colony slots, mutations, Index progress, and how to choose ants worth keeping.",
+    "h1": "Build an Ant Empire Ants"
+  },
+  "mounts": {
+    "title": "Build an Ant Empire Mounts | Mount Training Guide",
+    "description": "Learn how Build an Ant Empire mounts work, what Mount Training does to your ant, what happens on success or failure, and which ants are safest to train.",
+    "h1": "Build an Ant Empire Mounts"
+  },
   "upgrades": {
     "title": "Build an Ant Empire Upgrades | Best Upgrade Order",
     "description": "Use this Build an Ant Empire upgrades guide to prioritize Egg Luck, Egg Rolls, Food Value, colony expansion, ant speed, and early Cash spending.",

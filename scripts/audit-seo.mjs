@@ -11,7 +11,7 @@ const sitemap = readFileSync('out/sitemap.xml','utf8');
 const robots = readFileSync('out/robots.txt','utf8');
 check(site.readyForLaunch ? /Allow: \/(?:\s|$)/.test(robots) && !/Disallow: \/(?:\s|$)/.test(robots) : /Disallow: \/(?:\s|$)/.test(robots), 'Incorrect robots launch state');
 check(robots.includes(`${root}/sitemap.xml`), 'Wrong sitemap URL in robots');
-check([...sitemap.matchAll(/<loc>/g)].length === 8, 'Sitemap must contain exactly eight core routes');
+check([...sitemap.matchAll(/<loc>/g)].length === 11, 'Sitemap must contain exactly eleven core routes');
 check(existsSync('out/.nojekyll') && !existsSync('out/CNAME') && !existsSync('out/wiki/index.html'), 'Incorrect static export files');
 for (const [slug, target] of Object.entries(expected)) {
   const route = slug ? `/${slug}/` : '/';
@@ -31,9 +31,17 @@ for (const [slug, target] of Object.entries(expected)) {
   const visible = text(main.replace(/<aside\b[\s\S]*?<\/aside>/g, "").replace(/<details class="mobile-toc">[\s\S]*?<\/details>/g, ""));
   check(!forbidden.test(visible), `Public copy leak: ${route}`);
   const count = visible.match(/[a-z0-9]+(?:['’-][a-z0-9]+)*/gi)?.length ?? 0;
-  check(count >= (slug ? 850 : 1200), `Insufficient visible copy: ${route} (${count})`);
+  check(count >= (['star-event', 'ants'].includes(slug) ? 900 : slug ? 850 : 1200), `Insufficient visible copy: ${route} (${count})`);
   const nav = html.match(/<nav\b[^>]*>([\s\S]*?)<\/nav>/)?.[1] ?? '';
   const footer = html.match(/<footer\b[^>]*>([\s\S]*?)<\/footer>/)?.[1] ?? '';
+  const more = nav.match(/<details class="nav-more">([\s\S]*?)<\/details>/)?.[1] ?? '';
+  const navSlugs = content => [...content.matchAll(/href="\/([^/]+)\/"/g)].map(m => m[1]);
+  check(JSON.stringify(navSlugs(nav.replace(/<details\b[\s\S]*?<\/details>/g, ''))) === JSON.stringify(['codes', 'pets', 'mutations', 'ants', 'star-event']), `Incorrect primary navigation: ${route}`);
+  check(JSON.stringify(navSlugs(more)) === JSON.stringify(['beginner-guide', 'items', 'upgrades', 'auto-jelly-feed', 'mounts']), `Incorrect More links: ${route}`);
+  if (!slug) {
+    const cards = main.match(/<section class="grid">([\s\S]*?)<\/section>/)?.[1] ?? '';
+    check(JSON.stringify(navSlugs(cards)) === JSON.stringify(['codes', 'items', 'beginner-guide', 'pets', 'auto-jelly-feed', 'mutations', 'upgrades']), 'Homepage guide cards changed');
+  }
   for (const page of pages) for (const [area, content] of [['navigation',nav],['footer',footer]]) check(content.includes(`href="/${page.slug}/"`), `Missing ${area} link to ${page.slug} on ${route}`);
   if (slug) {
     check(html.includes('href="/"'), `Missing home link: ${route}`);
@@ -55,6 +63,22 @@ for (const [slug, target] of Object.entries(expected)) {
     check(!/aggregateRating|"Review"|"offers"/.test(JSON.stringify(schema)), `Unsupported schema: ${route}`);
   }
   if (slug) check(schemas.some(s=>s['@type']==='BreadcrumbList'), `Missing breadcrumb schema: ${route}`);
+  if (['star-event', 'ants', 'mounts'].includes(slug)) {
+    const page = pages.find(p => p.slug === slug);
+    check(new Set(schemas.map(s => s['@type'])).size === schemas.length, `Duplicate schema types: ${route}`);
+    check(schemas.some(s => s['@type'] === 'WebPage' && s.url === canonical && s.dateModified === page.lastReviewed), `Incorrect WebPage schema: ${route}`);
+    const faq = schemas.find(s => s['@type'] === 'FAQPage');
+    check(faq?.mainEntity.length === page.faq.length && main.includes('<section id="faq">'), `FAQ schema/visible content mismatch: ${route}`);
+    for (const item of faq.mainEntity) check(visible.includes(item.name) && visible.includes(item.acceptedAnswer.text), `FAQ answer missing from page: ${route}`);
+    const howTo = schemas.find(s => s['@type'] === 'HowTo');
+    if (howTo) {
+      const steps = page.sections.flatMap(section => section.steps ?? []);
+      check(howTo.step.length === steps.length, `HowTo step count mismatch: ${route}`);
+      for (const [index, step] of howTo.step.entries()) check(step.position === index + 1 && step.name === steps[index].heading && step.text === steps[index].description && visible.includes(step.name) && visible.includes(step.text), `HowTo/visible step mismatch: ${route}`);
+    }
+    check([...main.matchAll(/class="context-link"/g)].length <= 3, `Too many contextual links: ${route}`);
+    check(visible.includes('Reference date: October 6, 2026'), `Incorrect visible review date: ${route}`);
+  }
   results.push({route,titleChars:target.title.length,descriptionChars:target.description.length,visibleWords:count,h1:1,canonical,robots:meta(html,'robots')});
 }
 for (const file of ['llms.txt','llms-full.txt']) check(!forbidden.test(readFileSync(`out/${file}`,'utf8')), `Copy leak in ${file}`);

@@ -1240,5 +1240,674 @@
         "url": "https://allthings.how/build-an-ant-empire-how-to-start-your-colony-and-grow-your-cash/"
       }
     ]
+  },
+  {
+    "enabled": true,
+    "slug": "star-event",
+    "pageType": "guide",
+    "navLabel": "Star Event",
+    "title": "Build an Ant Empire Star Event | Star Items & Pets",
+    "description": "Build an Ant Empire Star Event guide covering Star items, the Wishing Pool, limited dungeon, Event Tokens, new pets, and limited Star rewards.",
+    "keywords": [
+      "build an ant empire star event",
+      "build an ant empire star pet",
+      "build an ant empire star items",
+      "build an ant empire star egg",
+      "build an ant empire wishing pool",
+      "build an ant empire event tokens",
+      "build an ant empire limited dungeon"
+    ],
+    "primaryKeyword": "build an ant empire star event",
+    "secondaryKeywords": [
+      "build an ant empire star pet",
+      "build an ant empire star items",
+      "build an ant empire star egg",
+      "build an ant empire wishing pool",
+      "build an ant empire event tokens",
+      "build an ant empire limited dungeon"
+    ],
+    "searchIntent": "Build an Ant Empire Star Event guide covering Star items, the Wishing Pool, limited dungeon, Event Tokens, new pets, and limited Star rewards.",
+    "priority": "P0",
+    "navVisible": true,
+    "wordCountTarget": 1100,
+    "hero": {
+      "heading": "Build an Ant Empire Star Event",
+      "lead": "Roll ants to obtain Star items, use Star items at the Wishing Pool to unlock the limited-time dungeon, earn Event Tokens in the dungeon, then exchange those tokens for event rewards. The update also adds new ants, new pets, base skins and pet-following features."
+    },
+    "sections": [
+      {
+        "id": "event-flow",
+        "heading": "How the Build an Ant Empire Star Event Works",
+        "paragraphs": [
+          "The Star Event connects ant rolling with a temporary dungeon and a separate reward currency. Follow these steps to move from finding Star items to choosing rewards."
+        ],
+        "steps": [
+          {
+            "heading": "Roll ants and obtain Star items",
+            "description": "Start with ant rolls. The event notes say rolling for ants can provide Star items. Watch for these event items while rolling and check what you have before heading to the pool."
+          },
+          {
+            "heading": "Use Star items at the Wishing Pool",
+            "description": "Bring your Star items to the Wishing Pool. Read the current requirement shown there before using them; the pool is the event interaction that leads to the limited-time dungeon."
+          },
+          {
+            "heading": "Unlock and enter the limited-time dungeon",
+            "description": "Use the pool to unlock the event dungeon, then follow the entry options shown in your game. Keep this temporary dungeon separate from the permanent Pets and Dungeon progression system."
+          },
+          {
+            "heading": "Earn Event Tokens",
+            "description": "Participate in the limited dungeon to earn Event Tokens. These tokens belong to the Star Event reward loop, so check the event currency display when tracking your progress."
+          },
+          {
+            "heading": "Exchange Event Tokens for rewards",
+            "description": "Open the event reward exchange and compare the available rewards with your token balance. Choose what you want before spending, using the live exchange screen for prices and requirements."
+          }
+        ]
+      },
+      {
+        "id": "star-items",
+        "heading": "Star Items and the Wishing Pool",
+        "paragraphs": [
+          "Star items belong to the event loop rather than the ordinary Food-to-Cash cycle. When you receive one from ant rolling, your next destination is the Wishing Pool. Its role is to bridge rolling and dungeon access, rather than directly turning an ant into a pet.",
+          "Check the pool’s requested item, quantity and action before confirming. Exact drop rates and required quantities are not listed in the event notes; use the current in-game interface for the live requirement."
+        ],
+        "links": [
+          {
+            "slug": "ants",
+            "label": "Build an Ant Empire Ants",
+            "description": "Review Ant Queen rolls and colony progression before continuing your event rolls."
+          }
+        ]
+      },
+      {
+        "id": "star-pets",
+        "heading": "Star Pets and New Pets",
+        "paragraphs": [
+          "Looking for a Build an Ant Empire star pet? The Star Event update confirms new pets, but its announcement does not name a single pet called “Star Pet.” Treat that search as a way to find the event’s pet content, then look at the actual names displayed in your server.",
+          "The event adds new pets. Check the current event and pet interface for the names and requirements available in your server. Compare the description of a pet with what you need instead of assuming every new pet comes from the same reward or egg.",
+          "Pet Following is also listed in the update, letting pets accompany players. The notes additionally mention a trash-can option for unwanted pets. Review your selection before discarding anything, especially a pet you still use or want to keep in your collection."
+        ],
+        "links": [
+          {
+            "slug": "pets",
+            "label": "Pets & Dungeon guide",
+            "description": "See the permanent pet coins and pet eggs system alongside this temporary event."
+          }
+        ]
+      },
+      {
+        "id": "star-rewards",
+        "heading": "Star Egg and Limited Star Rewards",
+        "paragraphs": [
+          "The current RobloxDatabase shop reference lists a Limited Item Pack containing Star Egg, Star Ant, Starwing Ant and Starfall Land Skin. These are listed pack contents. They are not a promise that each item drops freely from the limited dungeon or appears in the token exchange.",
+          "Star Egg is the name used in that pack listing. Do not assume its contents, hatch requirements or chances match an ordinary Pet Egg. Read the live pack and egg descriptions before buying or opening anything, and check whether the item you want is offered through that specific route."
+        ]
+      },
+      {
+        "id": "limited-dungeon",
+        "heading": "Limited Dungeon and Event Tokens",
+        "paragraphs": [
+          "The confirmed route is Star items → Wishing Pool → limited dungeon → Event Tokens → event rewards. Use it to identify where you are stuck. If you have Star items but have not unlocked entry, return to the pool. If you have tokens, check the reward exchange.",
+          "Event Tokens serve this temporary reward loop. Track them separately from Food sale Cash and permanent dungeon pet coins; check the currency named on each purchase screen."
+        ]
+      },
+      {
+        "id": "star-update",
+        "heading": "What Changed in the Star Update",
+        "paragraphs": [
+          "The event announcement combines a limited-time activity with additions to the wider game. This table separates the listed features so you can find the part of the update you came to play."
+        ],
+        "table": {
+          "caption": "Confirmed event features — October 6, 2026",
+          "columns": [
+            "Feature",
+            "What players should know"
+          ],
+          "rows": [
+            [
+              "Limited-time event",
+              "Roll for Star items, use the Wishing Pool and enter the event dungeon."
+            ],
+            [
+              "Event Tokens",
+              "Earn them in the limited dungeon and exchange them for event rewards."
+            ],
+            [
+              "New Ants and New Pets",
+              "Check the current ant and pet interfaces for available names and requirements."
+            ],
+            [
+              "New Base Skins",
+              "The update includes new base skins; the shop pack lists Starfall Land Skin."
+            ],
+            [
+              "Pet Following",
+              "Pets can accompany players through the new following feature."
+            ],
+            [
+              "Unwanted pet disposal",
+              "The update notes describe throwing unwanted pets into the trash can."
+            ]
+          ]
+        },
+        "links": [
+          {
+            "slug": "codes",
+            "label": "Current Build an Ant Empire codes",
+            "description": "Check the existing code list and redemption steps before your next session."
+          }
+        ]
+      },
+      {
+        "id": "event-timing",
+        "heading": "Event Timing",
+        "paragraphs": [
+          "The event listing currently shows an end time of Oct 7, 2026 at 13:00 UTC. Its listed window begins Sep 30, 2026 at 11:25 UTC. This guide was reviewed on October 6, 2026, while that window was still open.",
+          "Check the live event listing or game interface before planning your final session, since schedules can change. The announcement does not establish what happens to unused Star items or tokens afterward."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is the Build an Ant Empire Star Event?",
+        "answer": "It is a limited-time activity connecting Star items from ant rolls, the Wishing Pool, a temporary dungeon and Event Tokens that can be exchanged for rewards."
+      },
+      {
+        "question": "How do I get Star items?",
+        "answer": "The event notes say to roll for ants to obtain Star items. Check your event inventory while rolling; the announcement does not publish exact drop rates."
+      },
+      {
+        "question": "What does the Wishing Pool do?",
+        "answer": "It uses Star items to unlock the limited-time dungeon. Read the live pool interface for the item requirement before confirming."
+      },
+      {
+        "question": "What are Event Tokens used for?",
+        "answer": "Exchange Event Tokens for event rewards. They are earned by participating in the limited dungeon and should be tracked separately from Cash and pet coins."
+      },
+      {
+        "question": "Is there a Star Pet in Build an Ant Empire?",
+        "answer": "The update confirms new pets, but does not identify one specific pet named Star Pet. Check the current event and pet interface for the names available in your server."
+      },
+      {
+        "question": "Does the Star Event add new pets?",
+        "answer": "Yes. New Pets and Pet Following are listed in the update announcement, alongside new ants and base skins."
+      },
+      {
+        "question": "How long does the Star Event last?",
+        "answer": "The current listing runs from Sep 30, 2026 at 11:25 UTC to Oct 7, 2026 at 13:00 UTC. Check the live listing for schedule changes."
+      }
+    ],
+    "relatedSlugs": [
+      "pets",
+      "ants",
+      "codes"
+    ],
+    "lastReviewed": "2026-10-06",
+    "entryDescription": "Build an Ant Empire Star Event guide covering Star items, the Wishing Pool, limited dungeon, Event Tokens, new pets, and limited Star rewards.",
+    "sourceLinks": [
+      {
+        "label": "Roblox — official Build an Ant Empire game",
+        "url": "https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire"
+      },
+      {
+        "label": "TrendingBlox — Star update notes and event schedule",
+        "url": "https://www.trendingblox.com/games/build-an-ant-empire/"
+      },
+      {
+        "label": "RobloxDatabase — current game and shop reference",
+        "url": "https://robloxdatabase.com/games/build-an-ant-empire/"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "slug": "ants",
+    "pageType": "database",
+    "navLabel": "Ants",
+    "title": "Build an Ant Empire Ants | Rarities, Rolls & Progression",
+    "description": "Build an Ant Empire ants guide covering rarities, Ant Queen rolls, colony slots, mutations, Index progress, and how to choose ants worth keeping.",
+    "keywords": [
+      "build an ant empire ants",
+      "build an ant empire ant rarities",
+      "build an ant empire rare ants",
+      "build an ant empire best ants",
+      "build an ant empire ant queen",
+      "build an ant empire ant progression"
+    ],
+    "primaryKeyword": "build an ant empire ants",
+    "secondaryKeywords": [
+      "build an ant empire ant rarities",
+      "build an ant empire rare ants",
+      "build an ant empire best ants",
+      "build an ant empire ant queen",
+      "build an ant empire ant progression"
+    ],
+    "searchIntent": "Build an Ant Empire ants guide covering rarities, Ant Queen rolls, colony slots, mutations, Index progress, and how to choose ants worth keeping.",
+    "priority": "P0",
+    "navVisible": true,
+    "wordCountTarget": 1100,
+    "hero": {
+      "heading": "Build an Ant Empire Ants",
+      "lead": "Ants are the workers that power your colony. Roll at the Ant Queen, buy the ant you want, place it in a colony slot, then let it produce Food that can be sold for Cash. Better rarity, useful mutations and long-term progression determine which ants are worth keeping."
+    },
+    "sections": [
+      {
+        "id": "get-ants",
+        "heading": "How to Get Ants in Build an Ant Empire",
+        "paragraphs": [
+          "Go to the Ant Queen to roll for ants, then buy the offered ant you want. Rolling and buying are separate actions: the colony guide describes rolls as free, while the ant purchase costs Cash. An appealing offer is only useful if you can afford to take it.",
+          "Keep a purchase reserve instead of spending your entire balance on upgrades immediately before rolling. Check the offered ant’s rarity and mutation, then decide whether it fills an empty slot or replaces a weaker worker. Place your purchase in a colony slot so it can contribute to income.",
+          "Egg Luck improves your chances of better ants, while Egg Rolls expands rolling at the Queen. These upgrades support ant progression, but do not promise a particular rarity on your next attempt. Check the upgrade boards for the current level and purchase cost."
+        ],
+        "links": [
+          {
+            "slug": "upgrades",
+            "label": "Build an Ant Empire Upgrades",
+            "description": "Use the existing upgrade guide to balance rolling improvements and colony capacity."
+          }
+        ]
+      },
+      {
+        "id": "ant-rarities",
+        "heading": "Build an Ant Empire Ant Rarities",
+        "paragraphs": [
+          "The current game and shop reference lists the following 11 rarity labels, from Common through Celestial. Use this ladder to understand the labels on ant offers. It does not provide a complete named-ant production table or a probability for rolling each tier.",
+          "Higher rarity is a useful first comparison, but review the actual ant and its mutation before replacing a keeper. The reference lists these labels for direct shop purchases too; that listing does not establish identical availability or odds for every Ant Queen roll."
+        ],
+        "table": {
+          "caption": "Ant rarity ladder and progression decisions",
+          "columns": [
+            "Rarity",
+            "Progression role / what players should know"
+          ],
+          "rows": [
+            [
+              "Common",
+              "Starting worker tier; useful for establishing your first Food income."
+            ],
+            [
+              "Uncommon",
+              "An early step above Common; compare it with the workers already placed."
+            ],
+            [
+              "Rare",
+              "A further progression tier; consider keeping useful rolls as your colony grows."
+            ],
+            [
+              "Epic",
+              "Above Rare in the listed ladder; compare rarity together with any mutation."
+            ],
+            [
+              "Legendary",
+              "Above Epic; check whether replacing a weaker worker improves your colony."
+            ],
+            [
+              "Mythic",
+              "Above Legendary; save purchase Cash when aiming for higher-tier ants."
+            ],
+            [
+              "Exotic",
+              "Above Mythic; evaluate the ant as a long-term keeper before spending potions."
+            ],
+            [
+              "Secret",
+              "Above Exotic; the label does not specify a published roll percentage."
+            ],
+            [
+              "Divine",
+              "Above Secret; check the current offer and your available colony slots."
+            ],
+            [
+              "OP",
+              "Above Divine in the reference; it is a rarity label, not a guaranteed result."
+            ],
+            [
+              "Celestial",
+              "Highest label in this reference ladder; check the live roster after updates."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "food-and-cash",
+        "heading": "How Ants Produce Food and Cash",
+        "paragraphs": [
+          "Ant → colony slot → Food → Sell station → Cash is the worker income loop. After placing an ant, collect the Food boxes produced by your colony and bring them to the Sell station. That sale provides the Cash used for ant purchases and colony upgrades.",
+          "A stronger roster needs enough room to work. Buying an ant and assigning it to a production slot are separate parts of the process, so check available slots before buying several workers. Colony expansion gives more room; it does not replace the need to choose useful ants.",
+          "Keep this economy separate from pet progression and event rewards. A working ant earns through Food sales. Event Tokens and pet-related currencies have their own uses, so a currency balance elsewhere does not mean you can afford the next Cash purchase."
+        ],
+        "steps": [
+          {
+            "heading": "Roll and compare",
+            "description": "Read the ant offer at the Queen, including rarity and mutation."
+          },
+          {
+            "heading": "Buy and place",
+            "description": "Keep enough Cash for the purchase and assign the ant to a colony slot."
+          },
+          {
+            "heading": "Collect and sell",
+            "description": "Move produced Food to the Sell station, then reinvest the Cash in your colony."
+          }
+        ]
+      },
+      {
+        "id": "keepers",
+        "heading": "Which Ants Should You Keep?",
+        "paragraphs": [
+          "The best ants for your colony depend on what you already own and what they contribute. Keep stronger useful workers, especially those combining a higher rarity with a helpful mutation. Avoid choosing by a name alone when the live interface offers a clearer comparison.",
+          "Before replacing an ant, make sure the replacement is purchased and you have checked its usefulness. Before applying an expensive potion, ask whether that worker is likely to stay. Before training a mount, identify a spare you can lose without disrupting Food sales."
+        ],
+        "subsections": [
+          {
+            "heading": "Keeper checklist",
+            "paragraphs": [
+              "Use these questions when deciding whether an ant belongs in production or is a replaceable spare."
+            ],
+            "bullets": [
+              "Does this ant improve on a weaker worker or fill useful colony capacity?",
+              "Does its mutation make it worth retaining alongside higher-rarity offers?",
+              "Will I keep it long enough to justify an expensive Mutation Potion?",
+              "Can I afford its actual purchase without stopping my upgrade progress?",
+              "If I give it to Mount Training, can the remaining workers sustain income?"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ant-mutations",
+        "heading": "Ants and Mutations",
+        "paragraphs": [
+          "Rarity and mutation are separate characteristics. Rarity describes the ant’s tier; a mutation adds its own effect and EFF multiplier. Compare both when deciding whether an ant is worth keeping. A mutation does not simply rename the rarity shown on the worker.",
+          "Potions let you choose which ant receives a mutation. Save costly effects for a keeper rather than a Common worker you expect to replace soon. Check the effect already present before applying or removing a mutation."
+        ],
+        "links": [
+          {
+            "slug": "mutations",
+            "label": "Build an Ant Empire Mutations",
+            "description": "Compare potion effects and EFF multipliers in the dedicated mutation reference."
+          }
+        ]
+      },
+      {
+        "id": "ant-index",
+        "heading": "Ants and the Index",
+        "paragraphs": [
+          "Discovering new ants and Mutations fills Index progress. Reaching collection milestones unlocks one-time rewards, so check the Index when you discover something new. Claimed milestone rewards are not recurring income from repeating the same discovery.",
+          "The Index gives another reason to pay attention to a new discovery, even when your immediate goal is a stronger worker. Review the live collection screen for your next milestone and reward; this guide does not assign a fixed threshold to every stage."
+        ]
+      },
+      {
+        "id": "ant-mount-training",
+        "heading": "Ants and Mount Training",
+        "paragraphs": [
+          "Mount Training uses one of your ants. Success creates a rideable mount, while failure can leave you without one. Either result removes the submitted ant from normal colony production, so keep reliable earners in their slots and reserve a replaceable spare for training."
+        ],
+        "links": [
+          {
+            "slug": "mounts",
+            "label": "Build an Ant Empire Mounts",
+            "description": "Review training outcomes and the candidate checklist before handing over a worker."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I get ants?",
+        "answer": "Roll at the Ant Queen, buy the ant you want with Cash, then place it in a colony slot to produce Food. Rolling alone does not complete the purchase."
+      },
+      {
+        "question": "What is the highest ant rarity?",
+        "answer": "Celestial is the highest label in the current reference ladder, above OP. Check the live game for roster changes after updates."
+      },
+      {
+        "question": "Does Egg Luck improve ant rolls?",
+        "answer": "Yes. The colony guide describes Egg Luck as improving the odds of better ants, but it does not promise a particular roll or publish exact percentages."
+      },
+      {
+        "question": "Should I mutate a Common ant?",
+        "answer": "Avoid spending an expensive potion on a Common you expect to replace quickly. Consider how long you will keep that worker and whether another ant would benefit more."
+      },
+      {
+        "question": "What happens to an ant used for Mount Training?",
+        "answer": "It leaves colony production whether training succeeds or fails. Choose an ant you can afford to lose."
+      },
+      {
+        "question": "Do ants need colony slots?",
+        "answer": "Yes. Place ants in colony slots to make them workers in the Food and Cash loop."
+      },
+      {
+        "question": "Is there an official full ant stat table?",
+        "answer": "The official game page describes the core loop rather than a full ant stat table. Use the current in-game ant interface to compare available workers."
+      }
+    ],
+    "relatedSlugs": [
+      "mutations",
+      "upgrades",
+      "mounts"
+    ],
+    "lastReviewed": "2026-10-06",
+    "entryDescription": "Build an Ant Empire ants guide covering rarities, Ant Queen rolls, colony slots, mutations, Index progress, and how to choose ants worth keeping.",
+    "sourceLinks": [
+      {
+        "label": "All Things How — colony progression and Mount Training",
+        "url": "https://allthings.how/build-an-ant-empire-how-to-start-your-colony-and-grow-your-cash/"
+      },
+      {
+        "label": "RobloxDatabase — current game and shop reference",
+        "url": "https://robloxdatabase.com/games/build-an-ant-empire/"
+      },
+      {
+        "label": "Roblox — official Build an Ant Empire game",
+        "url": "https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire"
+      }
+    ]
+  },
+  {
+    "enabled": true,
+    "slug": "mounts",
+    "pageType": "guide",
+    "navLabel": "Mounts",
+    "title": "Build an Ant Empire Mounts | Mount Training Guide",
+    "description": "Learn how Build an Ant Empire mounts work, what Mount Training does to your ant, what happens on success or failure, and which ants are safest to train.",
+    "keywords": [
+      "build an ant empire mounts",
+      "build an ant empire mount",
+      "build an ant empire mount training",
+      "how to get a mount in build an ant empire"
+    ],
+    "primaryKeyword": "build an ant empire mounts",
+    "secondaryKeywords": [
+      "build an ant empire mount",
+      "build an ant empire mount training",
+      "how to get a mount in build an ant empire"
+    ],
+    "searchIntent": "Learn how Build an Ant Empire mounts work, what Mount Training does to your ant, what happens on success or failure, and which ants are safest to train.",
+    "priority": "P1",
+    "navVisible": true,
+    "wordCountTarget": 1000,
+    "hero": {
+      "heading": "Build an Ant Empire Mounts",
+      "lead": "Mounts are created through Mount Training. You submit one of your ants; training can succeed or fail, and either outcome removes that ant from normal colony production. A successful training creates a rideable mount, so use a replaceable ant rather than your best producer."
+    },
+    "sections": [
+      {
+        "id": "get-a-mount",
+        "heading": "How to Get a Mount in Build an Ant Empire",
+        "paragraphs": [
+          "Visit the Mount Training NPC or area and read the current interaction. Choose your ant before submission: once it goes to training, plan to continue the colony without that worker."
+        ],
+        "steps": [
+          {
+            "heading": "Choose a replaceable ant",
+            "description": "Find a spare or a worker you can comfortably replace. Keep your best producer and valuable mutated keepers in the colony. If losing this ant would stop useful income, wait before training."
+          },
+          {
+            "heading": "Visit the Mount Training NPC or area",
+            "description": "Use the trainer interaction and read the available options. Check the current in-game interface for the live requirement rather than planning around an assumed price, timer or success rate."
+          },
+          {
+            "heading": "Submit the selected ant",
+            "description": "Check the selected worker before confirming. Treat this as giving up an ant from production, even if you are hoping for a successful ride. Confirm only when the remaining colony can handle the loss."
+          },
+          {
+            "heading": "Check the training result",
+            "description": "Training can succeed or fail. Read the result shown by the game before deciding what to do next. A failed attempt does not establish that your next attempt will succeed."
+          },
+          {
+            "heading": "Ride after successful training",
+            "description": "A successful result creates a rideable mount. Try it for travel, then return to the colony loop with the workers you retained; the trained ant is no longer a normal producer."
+          }
+        ]
+      },
+      {
+        "id": "failed-training",
+        "heading": "What Happens if Mount Training Fails?",
+        "paragraphs": [
+          "Failure can consume or remove the submitted ant without creating the mount you wanted. The colony guide also says that a successful attempt removes the ant from your colony. Plan around the worker loss in both outcomes, rather than treating success as a way to preserve production.",
+          "After a failure, check your remaining workers and resume Food sales before another attempt. Avoid chasing success with increasingly valuable ants. The current guide does not publish a percentage for predicting the next result."
+        ],
+        "table": {
+          "caption": "Mount Training: success versus failure",
+          "columns": [
+            "Outcome",
+            "Mount result",
+            "Colony production"
+          ],
+          "rows": [
+            [
+              "Success",
+              "Creates a rideable mount.",
+              "The submitted ant leaves normal colony production."
+            ],
+            [
+              "Failure",
+              "Does not create the intended mount.",
+              "The submitted ant can be consumed or removed; plan for losing the worker."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "training-candidates",
+        "heading": "Which Ant Should You Train?",
+        "paragraphs": [
+          "Choose a replaceable ant only after your colony income is stable. A spare is a safer candidate than your only strong producer, but “spare” should mean you can absorb the loss, not simply that you own two ants. Consider what each worker contributes before selecting one.",
+          "Keep valuable mutated workers in production, and consider how difficult a rare ant would be to replace. Getting a mount can wait while you secure reliable Food sales and Cash for another worker."
+        ],
+        "subsections": [
+          {
+            "heading": "Safe candidate checklist",
+            "paragraphs": [
+              "Answer these before using the trainer. If any answer points to a production problem, choose another ant or build your colony further first."
+            ],
+            "bullets": [
+              "I have other working ants that can maintain useful Food income.",
+              "This ant is replaceable and is not my only strong producer.",
+              "I am comfortable losing this worker even if training fails.",
+              "I am not sacrificing a valuable mutation I still rely on.",
+              "I have checked the selected ant and the live training interaction."
+            ]
+          }
+        ],
+        "links": [
+          {
+            "slug": "ants",
+            "label": "Build an Ant Empire Ants",
+            "description": "Compare rarity, colony slots and keeper choices before choosing a candidate."
+          }
+        ]
+      },
+      {
+        "id": "production-tradeoff",
+        "heading": "Mounts vs Colony Production",
+        "paragraphs": [
+          "Losing a worker means losing that worker’s contribution to the Food you can sell. The size of that tradeoff depends on your roster: removing a modest spare is different from handing over the ant responsible for much of your income. Check your colony situation before focusing on the riding result.",
+          "A mount provides travel convenience and progression content; it does not replace a worker in a colony slot. Make sure the remaining colony can support the purchases you still need."
+        ],
+        "links": [
+          {
+            "slug": "beginner-guide",
+            "label": "Build an Ant Empire Beginner Guide",
+            "description": "Build a steady collect, sell and upgrade routine before sacrificing a worker."
+          }
+        ]
+      },
+      {
+        "id": "mount-speed",
+        "heading": "Are Mounts Faster Than Walking?",
+        "paragraphs": [
+          "The All Things How colony guide describes a mount as only slightly faster than walking. It also points out that the teleport-to-nest button already covers much travel. Treat this as a practical observation, rather than a published numerical speed stat for every mount.",
+          "Consider which trips you actually make. If returning to the nest is your main travel need, try the existing teleport option first. If you want a ride for moving around the map, decide whether that convenience is worth removing your selected ant from production. A mount does not automatically make the colony grow faster."
+        ]
+      },
+      {
+        "id": "mount-mutations",
+        "heading": "Mounts and Mutations",
+        "paragraphs": [
+          "A mutated ant leaves production when handed to the trainer, taking its Food-production benefit with it. Do not choose a valuable mutated keeper simply because you expect a stronger mount.",
+          "The current training description does not promise a potion refund or a particular mount stat based on a mutation. Judge the candidate by what you are giving up now, and read the live result for the mount you obtain."
+        ],
+        "links": [
+          {
+            "slug": "mutations",
+            "label": "Build an Ant Empire Mutations",
+            "description": "Review the EFF effect you would remove from production before training a mutated ant."
+          }
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do I get a mount?",
+        "answer": "Choose a replaceable ant and submit it at the Mount Training NPC or area. Successful training creates a rideable mount; failure is also possible."
+      },
+      {
+        "question": "Can Mount Training fail?",
+        "answer": "Yes. Success and failure can both happen. The current guide does not publish a training success percentage."
+      },
+      {
+        "question": "Do I lose the ant if training fails?",
+        "answer": "Failure can consume or remove the ant. Plan to lose the submitted worker from colony production whether the attempt succeeds or fails."
+      },
+      {
+        "question": "Can I get the ant back?",
+        "answer": "The colony guide says you cannot use the submitted ant in your colony again after training, regardless of the result. Choose a worker you can afford to lose."
+      },
+      {
+        "question": "Which ant should I train?",
+        "answer": "Use a replaceable spare after establishing stable income. Keep your only strong producer and valuable mutated workers in the colony."
+      },
+      {
+        "question": "Are mounts faster than walking?",
+        "answer": "The colony guide describes them as only slightly faster than walking, and notes that teleport-to-nest already handles much travel. It does not give a numerical speed increase."
+      },
+      {
+        "question": "Should I use a mutated ant for Mount Training?",
+        "answer": "Avoid a valuable mutated keeper if its production matters. The ant leaves production, and the training description does not promise a potion refund or a special mount stat."
+      }
+    ],
+    "relatedSlugs": [
+      "ants",
+      "mutations",
+      "beginner-guide"
+    ],
+    "lastReviewed": "2026-10-06",
+    "entryDescription": "Learn how Build an Ant Empire mounts work, what Mount Training does to your ant, what happens on success or failure, and which ants are safest to train.",
+    "sourceLinks": [
+      {
+        "label": "All Things How — colony progression and Mount Training",
+        "url": "https://allthings.how/build-an-ant-empire-how-to-start-your-colony-and-grow-your-cash/"
+      },
+      {
+        "label": "Ant Empire Wiki — Mount Training mechanic cross-check",
+        "url": "https://buildanantempireroblox.wiki/mounts/"
+      },
+      {
+        "label": "Roblox — official Build an Ant Empire game",
+        "url": "https://www.roblox.com/games/78490532994307/Build-An-Ant-Empire"
+      }
+    ]
   }
 ]

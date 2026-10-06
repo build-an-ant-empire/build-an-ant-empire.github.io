@@ -45,11 +45,20 @@ export function esc(value: string): string {
 
 export function templateNavLinks(nav: TemplateLink[], page: "home" | "inner", currentSlug?: string | null): string {
   const items = nav.filter((item) => item.slug.replace(/^\/+|\/+$/g, ""));
-  return items.map((item) => {
+  const renderLink = (item: TemplateLink) => {
     const slug = item.slug.replace(/^\/+|\/+$/g, "");
     const active = page === "inner" && currentSlug && slug === currentSlug.replace(/^\/+|\/+$/g, "");
-    return `<a class="nav-link${active ? " active" : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}>${esc(item.label)}</a>`;
-  }).join("");
+    return `<a class="nav-link${active ? " active" : ""}" href="${esc(item.href)}"${active ? ' aria-current="page"' : ""}>${esc(slug === "pets" ? "Pets & Dungeon" : item.label)}</a>`;
+  };
+  const primarySlugs = ["codes", "pets", "mutations", "ants", "star-event"];
+  const moreSlugs = ["beginner-guide", "items", "upgrades", "auto-jelly-feed", "mounts"];
+  const primary = primarySlugs.flatMap((slug) => items.filter((item) => item.slug === slug));
+  const more = moreSlugs.flatMap((slug) => items.filter((item) => item.slug === slug));
+  const other = items.filter((item) => !primarySlugs.includes(item.slug) && !moreSlugs.includes(item.slug));
+  const activeMore = more.some((item) => item.slug === currentSlug);
+  return primary.map(renderLink).join("") + (more.length || other.length
+    ? `<details class="nav-more"><summary class="nav-link${activeMore ? " active" : ""}">More <span aria-hidden="true">▾</span></summary><div class="nav-more-links">${[...more, ...other].map(renderLink).join("")}</div></details>`
+    : "");
 }
 
 function brandInner(gameName: string, skin: string, page: "home" | "inner", logoUrl?: string | null): string {
